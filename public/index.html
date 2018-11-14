@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="data">
+    <div class="data-inside">
+      <h3>API Project: File Metadata Microservice</h3>
+      <h5>User Stories:</h5>
+      <p>1. I can submit a form object that includes a file upload.<br>
+         2. The from file input field has the "name" attribute set to "upfile". We rely on this in testing.<br>
+         3. When I submit something, I will receive the file name, and size in bytes within the JSON response.</p>
+         <h5>Usage:</h5>
+         <p>Please Upload a File ...</p>
+         <form action="/api/fileanalyse" method="post" enctype="multipart/form-data">
+           <input type="file" name="file">
+           <!-- <label for="file">No file chosen</label> -->
+           <br>
+           <input type="submit" value="submit">
+         </form>
+         <p>by <a href="">Rahul Raj</a></p>
+    </div>
+  </div>
+</body>
+</html>
